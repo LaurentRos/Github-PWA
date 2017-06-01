@@ -8,5 +8,6 @@ machine:
 deployment:
   heroku:
     branch: master
+    appname: github-pwa
     commands:
     - ./build/heroku.sh
