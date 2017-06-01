@@ -6,7 +6,7 @@ git checkout $deploy_br && \
 git pull --rebase || exit 1
 
 if ! git config user.email || ! git config user.name; then
-git config user.email "i@posva.net"
+git config user.email "laurentr@theodo.fr"
 git config user.name "Circle CI"
 fi
 
